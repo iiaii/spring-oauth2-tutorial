@@ -1,6 +1,8 @@
 package me.iiaii.oauth2withentities.config.auth;
 
 import lombok.RequiredArgsConstructor;
+import me.iiaii.oauth2withentities.domain.Role;
+import me.iiaii.oauth2withentities.service.CustomOAuth2UserService;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
